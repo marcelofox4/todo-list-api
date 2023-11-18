@@ -28,7 +28,7 @@ Esta é uma API simples para gerenciar uma lista de tarefas (Todo list) de um de
 
 :heavy_check_mark: Modificar uma tarefa;
 
-
+<br>
 
 ## Endpoints
 
@@ -49,7 +49,7 @@ Esta é uma API simples para gerenciar uma lista de tarefas (Todo list) de um de
 - Lombok;
 - BCrypt.
 
-
+<br>
 
 ## Exemplos de uso
 
@@ -67,8 +67,6 @@ Content-Type: application/json
 }
 ```
 
-
-
 ### Criar Tarefa
 
 POST: https://todolist-deploy-fj83.onrender.com/task/
@@ -85,13 +83,9 @@ Content-Type: application/json
 }
 ```
 
-
-
 ### Listar Tarefas
 
 GET: https://todolist-deploy-fj83.onrender.com/task/
-
-
 
 ### Modificar Tarefa
 
@@ -108,6 +102,3 @@ Content-Type: application/json
 	"priority": "ALTA"
 }
 ```
-
-
-
